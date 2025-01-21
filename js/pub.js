@@ -100,6 +100,19 @@ function pubs (name) {
   var allpubs = { 
     "conference" : [
       {
+        "paper" : "LetGrade: An Automated Grading System for Programming Assignments",
+        "authors" : [
+          {"name" :"Sujit Kumar Chakrabarti"},
+          {"name" :"Nikhila K.N."}
+         ],
+         "name" : "International Conference on Artificial Intelligence in Education",
+         "venue" : "Durham, UK",
+         "date" : "July",
+         "year" : "2022",
+         "preprint" : "../preprints/AIED2022_Poster.pdf",
+         "online" : "https://link.springer.com/chapter/10.1007/978-3-031-11647-6_75"
+      },
+      {
         "paper" : "Towards Automatic Training Design",
         "authors" : [
           {"name" :"Sujit Kumar Chakrabarti"}
@@ -1458,6 +1471,56 @@ function pubs (name) {
         }
     ],
   "journal" : [
+       {
+        "paper" : "A fresh look on semantics of Concurrent State Based Language (ConStaBL)",
+        "authors" : [
+          {
+            "name" : "Karthika Venkatesan"
+          },
+          {
+            "name" :"Sujit Kumar Chakrabarti"
+          }        ],
+        "name" : "Journal of Computing Languages",        
+        "date" : "",
+        "year" : "2024",
+	"issue" : "",
+        "preprint" : "../preprints/ConStaBL-2024.pdf",
+         "online" : ""
+
+      },
+      {
+        "paper" : "Automated Application Processing",
+        "authors" : [
+          {
+            "name" : "Eshita Sharma"
+          },
+          {
+            "name" : "Keshav Gupta"
+          },
+          {
+            "name" : "Lubaina Machinewala"
+          },
+          {
+            "name" : "Samaksh Dhingra"
+          },
+          {
+            "name" : "Shrey Tripathi"
+          },
+          {
+            "name" : "Shreyas S"
+          },
+          {
+            "name" :"Sujit Kumar Chakrabarti"
+          }        
+	],
+        "name" : "Sadhana",        
+        "date" : "19 November 2022",
+        "year" : "2022",
+	"issue" : "",
+        "preprint" : "../preprints/ConStaBL-2024.pdf",
+         "online" : "https://www.ias.ac.in/public/Volumes/sadh/047/00/0244.pdf"
+
+      },
       {
         "paper" : "Guidance Systems for Fighter Aircraft",
         "authors" : [
