@@ -1,1 +1,1 @@
-# SELab
+# SEALab
