@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>IIIT-B SELab Page</title>
+    <title>IIIT-B SEALab Page</title>
     <script src="js/bootstrap.js"> </script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/handlebars-v3.0.3.js"> </script>
@@ -15,6 +15,34 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/selab.css">   
+    <style>
+      .faculty-section {
+        margin-bottom: 30px;
+      }
+      .faculty-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .faculty-image {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        object-position: center top;
+        border-radius: 50%;
+        margin-bottom: 15px;
+      }
+      .faculty-name {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .faculty-title {
+        color: #666;
+        text-align: center;
+      }
+    </style>
   </head>
 <body onload='nav_bar ("./"); pubs ("")'>
 
@@ -23,9 +51,30 @@
         <h1>Software Engineering and Analysis Lab (SEAL), IIIT-B </h1>
       </div>    
       <div id="navbar"></div>
-            <ol class="breadcrumb">
-            <li><a href="index.html">Home </a></li>
-        </ol>
+      <ol class="breadcrumb">
+        <li><a href="index.html">Home </a></li>
+      </ol>
+
+      <!-- Faculty Section -->
+      <div class="row faculty-section">
+        <div class="col-md-12">
+          <h2 class="text-center mb-4">Faculty</h2>
+        </div>
+        <div class="col-md-6">
+          <div class="faculty-card">
+            <img src="images/meenakshi.jpg" alt="Meenakshi D'Souza" class="faculty-image">
+            <div class="faculty-name">Meenakshi D'Souza</div>
+            <div class="faculty-title">Head of Department, Computer Science and Engineering</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="faculty-card">
+            <img src="images/sujit.jpeg" alt="Sujit Kumar Chakrabarti" class="faculty-image">
+            <div class="faculty-name">Sujit Kumar Chakrabarti</div>
+            <div class="faculty-title">Associate Professor, Department of Computer Science and Engineering</div>
+          </div>
+        </div>
+      </div>
 
   <p>
 Software Engineering and Analysis Laboratory (SEAL)  -- earlier 'Software Engineering Laboratory' -- is a team of researchers at IIIT Bangalore working on using formal methods to solve software engineering problems. This lab is led by Meenakshi D'Souza, Head of Department, Computer Science and Engineering and Sujit Kumar Chakrabarti, Associate Professor, Department of Computer Science and Engineering, IIIT Bangalore.
