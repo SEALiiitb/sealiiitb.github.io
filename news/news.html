@@ -22,6 +22,32 @@
     <link href="../css/bootstrap.css" rel="stylesheet" />
     <link href="../css/gallery.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="../css/selab.css" />
+    <style>
+      .fade-button {
+        background-color: white;
+        color: #007bff;
+        border: 1px solid #007bff;
+        padding: 8px 12px;
+        font-size: 14px;
+        font-weight: normal;
+        cursor: pointer;
+        text-decoration: underline;
+        border-radius: 5%;
+        transition: color 0.3s, background-color 0.3s;
+      }
+
+      .fade-button:hover {
+        color: #0056b3;
+        background-color: #f9f9f9;
+      }
+
+      .fade-button:focus,
+      .fade-button:active {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+      }
+    </style>
   </head>
   <body onload='nav_bar ("../")'>
     <div class="container">
@@ -79,6 +105,32 @@
       <h4>May 2025</h4>
       <ul>
         <li>
+          Prof. Meenakshi D’Souza has been elected as the
+          <b>President of ACM India</b> for the term
+          <b>1 July 2025 to 30 June 2027</b>.
+        </li>
+
+        <li>
+          Ms. Ameena K Ashraf (PH2018001), under the supervision of Prof.
+          Meenakshi D’Souza, successfully presented her thesis oral examination
+          on May 12, 2025, titled
+          <i
+            >“Testing and Program Analysis based Verification of Programs for
+            Industrial Robots.”</i
+          >
+        </li>
+
+        <li>
+          Mr. Ganesha (Roll No. PH2019003), a research scholar under the
+          supervision of Prof. Sujit Kumar Chakrabarti, delivered his State of
+          the Art Seminar on May 8, 2025 on
+          <i
+            >“A Formal Verification Approach to Safeguard Controller Variables
+            from Single Event Upsets”</i
+          >
+        </li>
+
+        <li>
           IIIT-Bangalore will host the
           <b>Automated Technology for Verification and Analysis (ATVA) 2025</b>
           conference. Prof. Sujit Kumar Chakrabarti and Prof. Meenakshi D'Souza
@@ -115,28 +167,23 @@
             >View TEDx Event Page</a
           >
         </li>
+        <li>
+          Prof. Meenakshi D’Souza has been conferred the
+          <b
+            >ACM India Outstanding Contributions to Computing Education (OCCE)
+            Award</b
+          >
+          for the year <b>2024</b>, in recognition of her impactful work in
+          computing education.
+        </li>
       </ul>
 
       <!-- Adding collapsible section for Older News -->
       <h4 style="margin-top: 30px">Older News</h4>
       <button
-        style="
-          background-color: white;
-          border: none;
-          color: #007bff;
-          padding: 8px 12px;
-          font-size: 14px;
-          font-weight: normal;
-          cursor: pointer;
-          text-decoration: underline;
-          border-radius: 5%;
-          border-color: #007bff;
-          border: 1px solid #007bff;
-        "
+        class="fade-button"
         data-toggle="collapse"
         data-target="#older-news"
-        onmouseover="this.style.color='#0056b3'"
-        onmouseout="this.style.color='#007bff'"
       >
         Show/Hide Older News
       </button>
