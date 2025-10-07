@@ -100,6 +100,20 @@ function pubs(name) {
   var allpubs = {
     "conference": [
       {
+        "paper": "Robustness Verification for Object Detectors Using Set-Based Reachability Analysis",
+        "authors": [
+          { "name": "Sayak Chowdhury" },
+          { "name": "Hardik Khandelwal" },
+          { "name": "Meenakshi D'Souza" },
+        ],
+        "name": "The 34th International Conference on Artificial Neural Networks (ICANN 2025)",
+        "venue": "Kaunas, LITHUANIA",
+        "date": "September",
+        "year": "2025",
+        "preprint": "",
+        "online": "https://doi.org/10.1007/978-3-032-04546-1_39"
+      },
+      {
         "paper": "Safeguarding Controller Variables from SEUs using Static Analysis",
         "authors": [
           { "name": "Sujit Kumar Chakrabarti" },
