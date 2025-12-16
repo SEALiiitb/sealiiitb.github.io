@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IIIT-B SELab Page</title>
     <script src="./js/bootstrap.js"></script>
     <script src="../js/bootstrap.min.js"></script>
@@ -12,12 +12,12 @@
     <script src="../js/nav.js"></script>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/gallery.js"></script>
-    <link href="../css/bootstrap.css" rel="stylesheet" />
-    <link href="../css/gallery.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="../css/selab.css" />
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/gallery.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/selab.css">
   </head>
-  <body onload='nav_bar("../"); pubs("Ananta Kumar Das")'>
-    <br class="container" />
+  <body>
+    <br class="container">
     <div class="page-header">
       <div style="display: flex; align-items: center; gap: 20px;">
         <img src="../sealLogo.jpeg" alt="SEAL Logo" style="height: 80px; width: auto; border: none;">
@@ -113,5 +113,11 @@
 </ul>
 
     </p>
-  </body>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar("../"); pubs("Ananta Kumar Das")
+    });
+  </script>
+</body>
 </html>

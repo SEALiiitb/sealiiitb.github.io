@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IIIT-B SELab Page</title>
 
     <!-- existing assets -->
@@ -14,13 +14,13 @@
     <script src="../js/nav.js"></script>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/gallery.js"></script>
-    <link href="../css/bootstrap.css" rel="stylesheet" />
-    <link href="../css/gallery.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="../css/selab.css" />
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/gallery.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/selab.css">
   </head>
 
-  <body onload='nav_bar("../"); pubs("Prasanna Kotyal")'>
-    <br class="container" />
+  <body>
+    <br class="container">
     <div class="page-header">
       <div style="display: flex; align-items: center; gap: 20px;">
         <img src="../sealLogo.jpeg" alt="SEAL Logo" style="height: 80px; width: auto; border: none;">
@@ -41,8 +41,7 @@
       src="../images/Pk_2025.jpeg"
       alt="Prasanna"
       width="250"
-      style="border-radius: 10px; margin-bottom: 20px"
-    />
+      style="border-radius: 10px; margin-bottom: 20px">
     <p>
       <b>Degree Registered For: </b>M.S. (Research) in Computer Science and
       Engineering
@@ -124,5 +123,11 @@
         >
       </li>
     </ul>
-  </body>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar("../"); pubs("Prasanna Kotyal")
+    });
+  </script>
+</body>
 </html>

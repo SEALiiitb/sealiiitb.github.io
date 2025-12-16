@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="../css/selab.css">
     <link rel="stylesheet" type="text/css" href="../css/components.css">
   </head>
-<body onload='nav_bar ("../"); pubs ("")'>
+<body>
 
     <div class="container">
       <div class="page-header">
@@ -33,5 +33,11 @@
 		</ol>	
 	<h3>Publications</h3>
 	<p id = "pubs"></p>
-  </body>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar ("../"); pubs ("")
+    });
+  </script>
+</body>
 </html>

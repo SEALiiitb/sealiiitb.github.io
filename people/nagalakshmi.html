@@ -16,7 +16,7 @@
     <link href="../css/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/selab.css">    
   </head>
-<body onload='nav_bar ("../"); pubs ("nagalakshmi")'>
+<body>
 
     <div class="container">
       <div class="page-header">
@@ -32,7 +32,7 @@
 			<li><a href="nagalakshmi.html">	Nagalakshmi S.R</a></li>
 		</ol>	
 		<h2>Nagalakshmi S.R</h2>
-		  <img src="../images/nagalakshmi.jpg"  align="right" height="200"/>
+		  <img src="../images/nagalakshmi.jpg" height="200">
 		<p><b>Degree Registered For: </b>PhD</p>
 		<p><b>Supervisor : </b><a href="sujit.html">Meenakshi D'Souza</a></p>
 		<p><b>Date of Joining : </b>August 2019</p>
@@ -46,5 +46,11 @@
 	Courses taken till now: 
   <h3>Publications</h3>
   <p id = "pubs"></p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar ("../"); pubs ("nagalakshmi")
+    });
+  </script>
 </body>
 </html>

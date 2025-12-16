@@ -16,7 +16,7 @@
     <link href="../css/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/selab.css">    
   </head>
-<body onload='nav_bar ("../"); pubs ("Ganesha")'>
+<body>
 
     <div class="container">
       <div class="page-header">
@@ -32,7 +32,7 @@
 			<li><a href="ganesha.html">Ganesha</a></li>
 		</ol>	
 		<h2>Ganesha</h2>
-		  <img src="../images/ganesha.jpg"  align="right"  width="200"/>
+		  <img src="../images/ganesha.jpg"  width="200">
 		<p><b>Degree Registered For: </b>PhD</p>
 		<p><b>Supervisor : </b><a href="sujit.html">Sujit Kumar Chakrabarti</a></p>
 		<p><b>Date of Joining : </b>August 2019</p>
@@ -47,5 +47,11 @@
 Courses taken till now: Program Analysis for Software Engineering, Software Testing.
 </br></br>
   <p id = "pubs"></p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar ("../"); pubs ("Ganesha")
+    });
+  </script>
 </body>
 </html>

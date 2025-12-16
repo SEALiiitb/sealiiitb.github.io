@@ -16,7 +16,7 @@
     <link href="../css/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/selab.css">    
   </head>
-<body onload='nav_bar ("../"); pubs ("Ameena K. Ashraf")'>
+<body>
 
     <div class="container">
       <div class="page-header">
@@ -32,7 +32,7 @@
 			<li><a href="ameena.html">Ameena K Ashraf</a></li>
 		</ol>	
 		<h2>Ameena K Ashraf</h2>
-		  <!--<img src="../images/ameena.jpg"  align="right" height="200" width="200"/>-->
+		  <!--<img src="../images/ameena.jpg" height="200" width="200">-->
 		<p><b>Degree Registered For: </b>PhD</p>
 		<p><b>Supervisor : </b><a href="meenakshi.html">Meenakshi D’Souza</a></p>
 		<p><b>Date of Joining : </b>August 2018</p>
@@ -42,5 +42,11 @@ Hailing from Idukki, Kerala.Completed Btech in computer science and Technology f
 Courses taken till now: Automated Verification, Advanced algorithms, Discrete Maths, Linear algebra
   <h3>Publications</h3>
   <p id = "pubs"></p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar ("../"); pubs ("Ameena K. Ashraf")
+    });
+  </script>
 </body>
 </html>

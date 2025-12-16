@@ -16,7 +16,7 @@
     <link href="../css/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/selab.css">    
   </head>
-<body onload='nav_bar ("../"); pubs ("Karthika Venkatesan")'>
+<body>
 
     <div class="container">
       <div class="page-header">
@@ -32,7 +32,7 @@
 			<li><a href="Kartika.html">Kartika Venkatesan</a></li>
 		</ol>	
 		<h2>Kartika Venkatesan</h2>
-		  <img src="../images/karthika.jpg"  align="right" height="200" width="200"/>
+		  <img src="../images/karthika.jpg" height="200" width="200">
 		<p><b>Degree Registered For: </b>PhD</p>
 		<p><b>Supervisor : </b><a href="sujit.html">Sujit Kumar Chakrabarti</a></p>
 		<p><b>Date of Joining : </b>August 2014</p>
@@ -44,5 +44,11 @@
 	Courses taken till now: Compiler Design, Automated Formal Verification, Theory of Computation
   <h3>Publications</h3>
   <p id = "pubs"></p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar ("../"); pubs ("Karthika Venkatesan")
+    });
+  </script>
 </body>
 </html>

@@ -16,7 +16,7 @@
     <link href="../css/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/selab.css">    
   </head>
-<body onload='nav_bar ("../");pubs ("Khusbu Bubna")'>
+<body>
 
     <div class="container">
       <div class="page-header">
@@ -40,5 +40,11 @@
 	Courses taken till now: Software Testing, Design and Analysis of Safety Critical Systems, Programming Languages, OOAD,UML and Web methods.
 <h1>Publications</h1>
 <p id = "pubs"></p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar ("../");pubs ("Khusbu Bubna")
+    });
+  </script>
 </body>
 </html>

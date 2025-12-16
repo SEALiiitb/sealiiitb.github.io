@@ -16,7 +16,7 @@
     <link href="../css/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/selab.css">    
   </head>
-<body onload='nav_bar ("../"); pubs ("Varsha P. Suresh")'>
+<body>
 
     <div class="container">
       <div class="page-header">
@@ -32,7 +32,7 @@
 			<li><a href="varsha.html">Varsha P. Suresh</a></li>
 		</ol>	
 		<h2>Varsha P. Suresh</h2>
-		  <img src="../images/varsha.jpg"  align="right" height="200" width="200"/>
+		  <img src="../images/varsha.jpg" height="200" width="200">
 		<p><b>Degree Registered For: </b>PhD</p>
 		<p><b>Supervisor : </b><a href="sujit.html">Sujit Kumar Chakrabarti</a></p>
 		<p><b>Date of Joining : </b>January 2017</p>
@@ -49,5 +49,11 @@ Courses taken till now: Compiler Design, Software Testing, Theory of
 Computation, Programming Languages, Formal verification of SOCs.
   <h3>Publications</h3>
   <p id = "pubs"></p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar ("../"); pubs ("Varsha P. Suresh")
+    });
+  </script>
 </body>
 </html>

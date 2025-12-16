@@ -16,7 +16,7 @@
     <link href="../css/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/selab.css">    
   </head>
-<body onload='nav_bar ("../"); pubs ("Sayak Chowdhury")'>
+<body>
 
     <div class="container">
       <div class="page-header">
@@ -32,7 +32,7 @@
 			<li><a href="sayak.html">Sayak</a></li>
 		</ol>	
 		<h2>Sayak Chowdhury</h2>
-		  <img src="../images/sayak.jpg"  align="right"  width="200"/>
+		  <img src="../images/sayak.jpg"  width="200">
 		<p><b>Degree Registered For: </b>MS by Research</p>
 		<p><b>Supervisor : </b><a href="meenakshi.html">Prof. Meenakshi D'Souza</a></p>
 		<p><b>Date of Joining : </b>August 2023</p>
@@ -45,5 +45,11 @@
 Courses taken till now: Software Testing, Machine Learning, Maths for Machine Learning, Visual Recognition
 </br></br>
   <p id = "pubs"></p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar ("../"); pubs ("Sayak Chowdhury")
+    });
+  </script>
 </body>
 </html>
