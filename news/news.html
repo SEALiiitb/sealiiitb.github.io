@@ -22,39 +22,14 @@
     <link href="../css/bootstrap.css" rel="stylesheet" />
     <link href="../css/gallery.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="../css/selab.css" />
-    <style>
-      .fade-button {
-        background-color: white;
-        color: #007bff;
-        border: 1px solid #007bff;
-        padding: 8px 12px;
-        font-size: 14px;
-        font-weight: normal;
-        cursor: pointer;
-        text-decoration: underline;
-        border-radius: 5%;
-        transition: color 0.3s, background-color 0.3s;
-      }
-
-      .fade-button:hover {
-        color: #0056b3;
-        background-color: #f9f9f9;
-      }
-
-      .fade-button:focus,
-      .fade-button:active {
-        color: white;
-        background-color: black;
-        text-decoration: none;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="../css/components.css" />
   </head>
   <body onload='nav_bar ("../")'>
     <div class="container">
       <div class="page-header">
-        <div style="display: flex; align-items: center; gap: 20px;">
-          <img src="../sealLogo.jpeg" alt="SEAL Logo" style="height: 80px; width: auto; border: none;">
-          <h1 style="margin: 0;">Software Engineering and Analysis Lab (SEAL), IIIT-B</h1>
+        <div class="page-header-content">
+          <img src="../sealLogo.jpeg" alt="SEAL Logo" class="page-header-logo">
+          <h1 class="page-header-title">Software Engineering and Analysis Lab (SEAL), IIIT-B</h1>
         </div>
       </div>
       <div id="navbar"></div>
@@ -206,7 +181,7 @@
       </ul>
 
       <!-- Adding collapsible section for Older News -->
-      <h4 style="margin-top: 30px">Older News</h4>
+      <h4 class="news-section-heading">Older News</h4>
       <button
         class="fade-button"
         data-toggle="collapse"
