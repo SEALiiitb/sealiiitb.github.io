@@ -16,7 +16,7 @@
     <link href="../css/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/selab.css">    
   </head>
-<body onload='nav_bar ("../"); pubs ("surabhi")'>
+<body>
 
     <div class="container">
       <div class="page-header">
@@ -32,7 +32,7 @@
 			<li><a href="surabhi.html">Surabhi Jha</a></li>
 		</ol>
 	<h2>Surabhi Jha</h2>
-		  <img src="../images/surabhi.jpg"  align="right" height="200" width="200"/>
+		  <img src="../images/surabhi.jpg" height="200" width="200">
 		<p><b>Degree Registered For: </b>MS by Research</p>
 		<p><b>Supervisor: </b><a href="meenakshi.html">Meenakshi D'Souza</a></p>
 		<p><b>Date of Joining: </b>August 2014</p>
@@ -45,5 +45,11 @@
   <h3>Publications</h3>
   <p id = "pubs"></p>
 </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar ("../"); pubs ("surabhi")
+    });
+  </script>
 </body>
 </html>

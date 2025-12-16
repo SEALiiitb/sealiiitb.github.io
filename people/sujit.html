@@ -17,7 +17,7 @@
     <link href="../css/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/selab.css">   
   </head>
-<body onload="nav_bar ('../'); pubs ('Sujit Kumar Chakrabarti'); projects('Sujit Kumar Chakrabarti')">
+<body>
 
     <div class="container">
       <div class="page-header">
@@ -33,7 +33,7 @@
 			<li><a href="sujit.html"> Sujit</a></li>
 		</ol>	
 		<h3>Sujit Kumar Chakrabarti</h3>
-			<img width=300 src="../images/sujit-2023.jpg"  align="right"/>
+			<img width=300 src="../images/sujit-2023.jpg">
 			<p>Sujit's interest broadly lie in the formal aspects of software engineering. He is particularly interested in applying formal 
 			techniques to improve the productivity of software engineers in various engineering domains. The domains he has worked in are:</p>
 		<ol>
@@ -42,7 +42,7 @@
 		</ol>
 
 	<p>Sujit's current research efforts are in the development of advanced techniques of testing embedded software systems, formal specification of web-applications, and specification based testing of web-applications.</p>
-<br/> 
+<br> 
 			<h2>Teaching </h2>
 			<ol>
 				<li>Program Analysis for Software Engineering (Aug - 2019, Aug - 2020, Aug - 2024)
@@ -99,5 +99,11 @@
 	<h3>Talks/Panel Discussions</h3>
 	<h3>Publications</h3>
 	<p id = "pubs"></p>
-  </body>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar ('../'); pubs ('Sujit Kumar Chakrabarti'); projects('Sujit Kumar Chakrabarti')
+    });
+  </script>
+</body>
 </html>

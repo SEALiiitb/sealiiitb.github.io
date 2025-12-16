@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Saumya Shankar - SE Lab, IIIT-B</title>
-    <link href="../css/bootstrap.css" rel="stylesheet" />
-    <link href="../css/gallery.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="../css/selab.css" />
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/gallery.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/selab.css">
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/nav.js"></script>
   </head>
 
-  <body onload='nav_bar("../");'>
+  <body>
     <div class="container">
       <div class="page-header">
         <div style="display: flex; align-items: center; gap: 20px;">
@@ -33,9 +33,7 @@
       <img
         src="../images/Saumya.png"
         width="300"
-        align="right"
-        style="margin: 0 0 20px 20px; border-radius: 8px"
-      />
+        style="margin: 0 0 20px 20px; border-radius: 8px">
 
       <h4>Short Introduction</h4>
       <p>
@@ -65,5 +63,11 @@
         <a href="https://dblp.org/pid/281/4842.html" target="_blank">DBLP</a>.
       </p>
     </div>
-  </body>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar("../");
+    });
+  </script>
+</body>
 </html>

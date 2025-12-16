@@ -16,7 +16,7 @@
     <link href="../css/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/selab.css">    
   </head>
-<body onload='nav_bar ("../"); pubs ("Nikhila KN")'>
+<body>
 
     <div class="container">
       <div class="page-header">
@@ -32,7 +32,7 @@
 			<li><a href="nikhila.html">Nikhila K N</a></li>
 		</ol>	
 		<h2>Nikhila K N</h2>
-		  <img src="../images/nikhila.jpg"  align="right" height="200" width="200"/>
+		  <img src="../images/nikhila.jpg" height="200" width="200">
 		<p><b>Degree Registered For: </b>PhD</p>
 		<p><b>Supervisor : </b><a href="sujit.html">Sujit Kumar Chakrabarti</a></p>
 		<p><b>Date of Joining : </b>August 2017</p>
@@ -49,5 +49,11 @@
 	Courses taken till now: Compiler Design, Machine Learning I, Theory of Computation, Reading Electives(2 no.s)
   <h3>Publications</h3>
   <p id = "pubs"></p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar ("../"); pubs ("Nikhila KN")
+    });
+  </script>
 </body>
 </html>

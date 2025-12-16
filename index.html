@@ -44,7 +44,7 @@
       }
     </style>
   </head>
-<body onload='nav_bar ("./"); pubs ("")'>
+<body>
 
     <div class="container">
       <div class="page-header">
@@ -158,5 +158,11 @@ PhD alumni from our lab are with C-DAC, HAL, DRDO labs, Eaton, and are faculty i
     <h2>Publications</h2>
     <p id = "pubs"></p>
   </div>
-  </body>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar ("./"); pubs ("")
+    });
+  </script>
+</body>
 </html>

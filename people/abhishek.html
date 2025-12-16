@@ -16,7 +16,7 @@
     <link href="../css/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/selab.css">    
   </head>
-<body onload='nav_bar ("../"); pubs ("Abhishek Singh")'>
+<body>
 
     <div class="container">
 
@@ -54,5 +54,11 @@
 <br>
 		<h3>Publications</h3>
 	<p id = "pubs"></p>	
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar ("../"); pubs ("Abhishek Singh")
+    });
+  </script>
 </body>
 </html>

@@ -17,7 +17,7 @@
     <link href="../css/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/selab.css">    
   </head>
-<body onload="nav_bar ('../'); pubs ('Meenakshi D\'Souza') ; projects('Meenakshi D\'Souza')">
+<body>
 
     <div class="container">
       <div class="page-header">
@@ -33,7 +33,7 @@
 			<li><a href="meenakshi.html"> Meenakshi D'Souza</a></li>
 		</ol>	
 	<h2>Meenakshi D'Souza</h2>
-	<img src="../images/meenakshi.jpg"  align="right"/>
+	<img src="../images/meenakshi.jpg">
 	<h2>Research</h2>
 
 	  <p>All mathematical aspects of software engineering, with specific interest on testing, 
@@ -114,5 +114,11 @@ concurrency theory, logic, automata theory and formal methods for avionics. Hist
 
 </table>
 <br><br>	
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      nav_bar ('../'); pubs ('Meenakshi D\'Souza') ; projects('Meenakshi D\'Souza')
+    });
+  </script>
 </body>
 </html>
