@@ -1,184 +1,214 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>IIIT-B SELab Page</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
 
     <script src="../data/publications.js"></script>
     <script src="../js/pub.js"></script>
     <script src="../js/nav.js"></script>
-<script src="../js/gallery.js"></script>
-<link href="../css/gallery.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../css/selab.css">
+    <script src="../js/gallery.js"></script>
+
+    <link href="../css/gallery.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../css/selab.css" />
   </head>
+
   <body>
     <div class="container">
+      <!-- HEADER -->
       <header class="page-header">
-        <div style="display: flex; align-items: center; gap: 20px;">
-          <img src="../sealLogo.jpeg" alt="SEAL Logo" style="height: 80px; width: auto; border: none;">
-          <h1 style="margin: 0;">Software Engineering and Analysis Lab (SEAL), IIIT-B</h1>
+        <div style="display: flex; align-items: center; gap: 20px">
+          <img
+            src="../sealLogo.jpeg"
+            alt="SEAL Logo"
+            style="height: 80px; width: auto; border: none"
+          />
+          <h1 style="margin: 0">
+            Software Engineering and Analysis Lab (SEAL), IIIT-B
+          </h1>
         </div>
       </header>
+
+      <!-- NAVBAR -->
       <nav id="navbar"></nav>
+
+      <!-- BREADCRUMB -->
       <ol class="breadcrumb">
-        <li><a href="../index.html">Home </a></li>
-        <li><a href="events.html">Events </a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
       </ol>
-      <h3>Invited Talks</h3>
 
-      <table style="width: 80%">
-        <colgroup>
-          <col style="width: 50%" />
-        </colgroup>
-        <tr>
-          <td>
-            <b>Configuration Management for Resilient Networked Systems </b>
-            <br>
-            Speaker: Prof. Kaliappa Ravindran, City University NY, USA<br>
-            Date: Tuesday, Jan. 8, 2019<br>
-            <a href="ravi.html">more...</a>
-          </td>
-          <td>
-            <b>Fast computation of uncertainty in deep learning </b> <br>
-            Speaker: Dr. Emtiyaz Khan<br>
-            Date: Monday, Nov. 05, 2018<br>
-            <a href="emtiyaz.html">more...</a>
-          </td>
-        </tr>
+      <!-- BUTTON (TOP RIGHT) -->
+      <div
+        style="display: flex; justify-content: flex-end; margin-bottom: 25px"
+      >
+        <button
+          id="toggleBtn"
+          class="btn btn-primary"
+          data-toggle="collapse"
+          data-target="#allEvents"
+        >
+          Old Events ▼
+        </button>
+      </div>
 
-        <tr>
-          <td>
-            <b
-              >Machine Manipulable Models for Informed and Data-Driven
-              Decision-Making
-            </b>
-            <br>
-            Speaker:Vinay Kulkarni, TRDDC, Pune<br>
-            Date: September 10, 2014 <br>
-            <a href="vinay2014.html">more...</a>
-          </td>
-          <td>
-            <b>Energy Aware Software Systems </b> <br>
-            Speaker: Prof. Y. N. Srikant, CSA, IISc<br>
-            Date: August 13, 2014<br>
-            <a href="srikant2014.html">more...</a>
-          </td>
-        </tr>
+      <!-- ================================================= -->
+      <!-- ALL EVENTS (NOW COLLAPSIBLE) -->
+      <!-- ================================================= -->
 
-        <tr>
-          <td>
-            <b> Current trends in programming languages and research </b> <br>
-            Speaker: Prof. Aditya Kanade, CSA, IISc <br>
-            Date: July 11, 2014 <br>
-            <a href="kanade2014.html">more...</a>
-          </td>
+      <div id="allEvents" class="collapse">
+        <!-- Invited Talks -->
+        <h3>Invited Talks</h3>
 
-          <td>
-            <b>
-              Comprehensive Static Analysis of Embedded Software (C/C++, Ada)
-              using Polyspace products
-            </b>
-            <br>
-            Speaker:Mr. Prashant Mathapati, Mathworks <br>
-            Date: July 22, 2014 <br>
-            <a href="prashanth2014.html">more...</a>
-          </td>
-        </tr>
-      </table>
-
-      <h3>Visitors</h3>
-      <ol>
         <table style="width: 80%">
           <tr>
-            <td style="padding: 4px">
-              <b><li>Prof. Jim Woodcock</li></b> University of York, UK, visited
-              IIIT-Bangalore and IISc from 17--19 April 2018 for project
-              discussions of the Newton India fund, co-sponsored by the Royal
-              Academy of Engineering, UK. <br>
+            <td>
+              <b>Configuration Management for Resilient Networked Systems</b
+              ><br />
+              Speaker: Prof. Kaliappa Ravindran, City University NY, USA<br />
+              Date: Tuesday, Jan. 8, 2019<br />
+              <a href="ravi.html">more...</a>
+            </td>
+            <td>
+              <b>Fast computation of uncertainty in deep learning</b><br />
+              Speaker: Dr. Emtiyaz Khan<br />
+              Date: Monday, Nov. 05, 2018<br />
+              <a href="emtiyaz.html">more...</a>
             </td>
           </tr>
+
           <tr>
-            <td style="padding: 4px">
-              <b> <li>Dr. Jeremy Jacob</li></b> University of York, UK visited
-              IIIT-Bangalore on 15 February 2018 as a part of an UK delegation.
-              Dr. Jeremy Jacob visited IIIT-Bangalore and IISc from 29 -- 31 May
-              2017 for project discussions on the Newton India fund project,
-              co-sponsored by the Royal Academy of Engineering, UK. <br>
+            <td>
+              <b
+                >Machine Manipulable Models for Informed and Data-Driven
+                Decision-Making</b
+              ><br />
+              Speaker: Vinay Kulkarni, TRDDC, Pune<br />
+              Date: September 10, 2014<br />
+              <a href="vinay2014.html">more...</a>
+            </td>
+            <td>
+              <b>Energy Aware Software Systems</b><br />
+              Speaker: Prof. Y. N. Srikant, CSA, IISc<br />
+              Date: August 13, 2014<br />
+              <a href="srikant2014.html">more...</a>
             </td>
           </tr>
+
           <tr>
-            <td style="padding: 4px">
-              <b> <li>Prof. Santosh Nagarakatte</li></b> IIIT Bangalore and the
-              Software Engineering & Analysis Lab hosted Prof. Santosh
-              Nagarakatte (Rutgers University) on July 24, 2025 for an inspiring
-              talk on his research journey in Programming Languages and Formal
-              Methods, followed by an engaging AMA session with students. <br>
+            <td>
+              <b>Current trends in programming languages and research</b><br />
+              Speaker: Prof. Aditya Kanade, CSA, IISc<br />
+              Date: July 11, 2014<br />
+              <a href="kanade2014.html">more...</a>
+            </td>
+
+            <td>
+              <b
+                >Comprehensive Static Analysis of Embedded Software using
+                Polyspace</b
+              ><br />
+              Speaker: Mr. Prashant Mathapati, Mathworks<br />
+              Date: July 22, 2014<br />
+              <a href="prashanth2014.html">more...</a>
             </td>
           </tr>
         </table>
-      </ol>
-      <h3>IIITB-IISc SE workshop series</h3>
 
-      <table style="width: 80%">
-        <tr>
-          <td style="padding: 4px">
-            <b> Workshop 1: </b>The SE research scholars meeting was held at
-            IISc on December 20, 2018<a href="iisc-iiitb-ws1.html"> more...</a
-            ><br>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 4px">
-            <b> Workshop 2: </b>The SE research scholars meeting was held at
-            IIITB on 16th May 2019<a href="iisc-iiitb-ws2.html"> more...</a
-            ><br>
-          </td>
-        </tr>
-      </table>
+        <!-- Visitors -->
+        <h3>Visitors</h3>
 
-      <h3>Samvaad Talk</h3>
-      <ol>
+        <ul style="width: 80%">
+          <li>
+            <b>Prof. Jim Woodcock</b> — University of York, UK (April 2018)
+          </li>
+
+          <li>
+            <b>Dr. Jeremy Jacob</b> — University of York, UK (Feb 2018 & May
+            2017)
+          </li>
+
+          <li>
+            <b>Prof. Santosh Nagarakatte</b> — Rutgers University visit and AMA
+            session, July 24, 2025.
+          </li>
+        </ul>
+
+        <!-- Workshops -->
+        <h3>IIITB-IISc SE Workshop Series</h3>
+
         <table style="width: 80%">
           <tr>
-            <td style="padding: 4px">
-              <b> <li>Meenakshi D'Souza</li></b>
-              Professor Meenakshi D'Souza delivered the Samvaad talk on Monday,
-              July 23, 2018.
-              <br>
-              <a
-                href="https://www.youtube.com/watch?v=_5JCwq214Q8"
-                target="_blank"
-                >YouTube Link</a
-              >
+            <td>
+              <b>Workshop 1:</b> IISc — December 20, 2018
+              <a href="iisc-iiitb-ws1.html"> more...</a>
             </td>
           </tr>
+
           <tr>
-            <td style="padding: 4px">
-              <b><li>Sujit Kumar Chakrabarti</li></b>
-              Professor Sujith Kumar Chakrabarti delivered the Samvaad talk on
-              Monday, October 22, 2018.
-              <br>
-              <a
-                href="https://www.youtube.com/watch?v=-VPai27PHdY"
-                target="_blank"
-                >YouTube Link</a
-              >
+            <td>
+              <b>Workshop 2:</b> IIITB — May 16, 2019
+              <a href="iisc-iiitb-ws2.html"> more...</a>
             </td>
           </tr>
         </table>
-      </ol>
-      <br><br>
+
+        <!-- Samvaad Talks -->
+        <h3>Samvaad Talk</h3>
+
+        <ul style="width: 80%">
+          <li>
+            <b>Meenakshi D'Souza</b> — July 23, 2018<br />
+            <a
+              href="https://www.youtube.com/watch?v=_5JCwq214Q8"
+              target="_blank"
+            >
+              YouTube Link
+            </a>
+          </li>
+
+          <li>
+            <b>Sujit Kumar Chakrabarti</b> — October 22, 2018<br />
+            <a
+              href="https://www.youtube.com/watch?v=-VPai27PHdY"
+              target="_blank"
+            >
+              YouTube Link
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <br /><br />
     </div>
-  
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      nav_bar ("../")
-    });
-  </script>
-</body>
+
+    <!-- NAVBAR LOAD -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        nav_bar("../");
+      });
+    </script>
+
+    <!-- BUTTON TEXT TOGGLE -->
+    <script>
+      $("#allEvents").on("show.bs.collapse", function () {
+        $("#toggleBtn").text("Hide Events ▲");
+      });
+
+      $("#allEvents").on("hide.bs.collapse", function () {
+        $("#toggleBtn").text("Old Events ▼");
+      });
+    </script>
+  </body>
 </html>
