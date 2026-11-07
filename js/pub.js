@@ -100,6 +100,7 @@ function techrep(techreps, name) {
 
 function pubs(name) {
   var element = document.getElementById("pubs");
+  console.log("pubs Called for " + name + ".");
   
   // publicationsData is defined in data/publications.js (loaded before this script)
   if (typeof publicationsData === 'undefined' || !publicationsData) {

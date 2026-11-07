@@ -19,8 +19,21 @@ var publicationsData =
         "year": "2025",
         "preprint": "",
         "online": "https://doi.org/10.1007/978-3-032-04546-1_39"
-      },
-      {
+     },
+     {
+        "paper": "Specification-Based Testing of RESTful APIs",
+        "authors": [
+          { "name": "Aira Jain" },
+          { "name": "Sujit Kumar Chakrabarti" },
+        ],
+        "name": "ICSEA 2026",
+        "venue": "Barcelona, SPAIN",
+        "date": "September",
+        "year": "2026",
+        "preprint": "",
+        "online": "https://www.thinkmind.org/library/ICSEA/ICSEA_2026/icsea_2026_1_150_10056.html"
+     },
+     {
         "paper": "Safeguarding Controller Variables from SEUs using Static Analysis",
         "authors": [
           { "name": "Sujit Kumar Chakrabarti" },
