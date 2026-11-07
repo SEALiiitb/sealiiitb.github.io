@@ -33,15 +33,20 @@ function string_of_publication(str_pub, pub_type, func, name) {
 
 // function that constructs the links for the preprint and online version of the paper.
 function preprint_online(x) {
-  var preprint = "";
-  var online = "";
-  if (x.preprint != "") {
-    preprint = "&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"" + x.preprint + "\">Preprint</a>";
-  }
-  if (x.online != "") {
-    online = "&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"" + x.online + "\">Online</a>";
-  }
-  return [preprint, online];
+    var preprint = "";
+    var online = "";
+    if (x.preprint != "") {
+        if(x.preprint.startsWith("http://") || x.preprint.startsWith("https://")) {
+            preprint = "&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"" + x.preprint + "\">Preprint</a>";
+        }
+        else {
+            preprint = "&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"" + HOME + "/preprints/" + x.preprint + "\">Preprint</a>";
+        }
+    }
+    if (x.online != "") {
+        online = "&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"" + x.online + "\">Online</a>";
+    }
+    return [preprint, online];
 }
 
 function journal(journals, name) {

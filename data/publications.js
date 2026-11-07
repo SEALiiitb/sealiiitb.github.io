@@ -30,7 +30,7 @@ var publicationsData =
         "venue": "Hyderabad, INDIA",
         "date": "February",
         "year": "2026",
-        "preprint": "",
+        "preprint": "NCC2026.pdf",
         "online": "https://ieeexplore.ieee.org/document/11478915"
      },
      {
