@@ -21,6 +21,19 @@ var publicationsData =
         "online": "https://doi.org/10.1007/978-3-032-04546-1_39"
      },
      {
+        "paper": "SEU-Resilient Network Architecture: A Novel Formal-Methods Framework for Reliable 5G/6G Systems",
+        "authors": [
+          { "name": "Ganesha" },
+          { "name": "Sujit Kumar Chakrabarti" },
+        ],
+        "name": "NCC 2025",
+        "venue": "Hyderabad, INDIA",
+        "date": "February",
+        "year": "2026",
+        "preprint": "",
+        "online": "https://ieeexplore.ieee.org/document/11478915"
+     },
+     {
         "paper": "Specification-Based Testing of RESTful APIs",
         "authors": [
           { "name": "Aira Jain" },
