@@ -6,6 +6,34 @@
 var publicationsData = 
   {
     "conference": [
+
+      {
+        "paper": "Quantitative Evaluation of Software Carbon Intensity for Serverless Applications",
+        "authors": [
+          { "name": "Mahima" },
+          { "name": "Meenakshi D'Souza" },
+        ],
+        "name": "30th International Conference on Advanced Computing and Communications (ADCOM 2025)",
+        "venue": "Bangalore, India",
+        "date": "December",
+        "year": "2025",
+        "preprint": "",
+        "online": "https://doi.org/10.1007/978-3-032-26269-1_1"
+      },
+
+      {
+        "paper": "A Metric-Driven Framework for Estimating Software Carbon Intensity of Cloud-Hosted Applications",
+        "authors": [
+          { "name": "Mahima" },
+          { "name": "Meenakshi D'Souza" },
+        ],
+        "name": "21st Annual System of Systems Engineering (SoSE) Conference 2026",
+        "venue": "Kongsberg, Norway",
+        "date": "June-July",
+        "year": "2026",
+        "preprint": "",
+        "online": "https://doi.org/10.1109/SoSE69681.2026.11622348"
+      },
       {
         "paper": "Robustness Verification for Object Detectors Using Set-Based Reachability Analysis",
         "authors": [
